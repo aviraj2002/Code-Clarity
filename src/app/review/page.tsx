@@ -211,7 +211,7 @@ export default function ReviewPage() {
                       <AccordionItem value="details">
                         <AccordionTrigger className="text-lg font-semibold">
                           Detailed Findings
-                        AccordionTrigger>
+                        </AccordionTrigger>
                         <AccordionContent>
                           <div className="space-y-4">
                             {result.findings.map((finding, i) => (
